@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Automeyt</title>
+		<meta
+			name="description"
+			content="Streamline business workflows through automation using Zapier."
+		/>
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-TF9N6T5');</script>
+		<!-- End Google Tag Manager -->
+		<link rel="shortcut icon" href="./assets/img/favicon.ico" />
+		<link
+			rel="apple-touch-icon"
+			sizes="76x76"
+			href="./assets/img/apple-icon.png"
+		/>
+		<link rel="stylesheet" href="css/tailwind-min.css" />
+
+		<!-- Zoho PageSense Tracker -->
+		<script src="https://cdn.pagesense.io/js/automeyt/423043cff49a44489a5c20650c004130.js"></script>
+
+		<!-- Request a Quote Form - Bigin -->
+		<style type="text/css">
+			html,
+			body {
+				margin: 0px;
+			}
+			.bgn-wf-wrapper * {
+				box-sizing: border-box;
+			}
+			.bgn-wf-wrapper {
+				width: 100%;
+				max-width: 900px;
+				margin: auto;
+				border: none;
+				padding: 15px;
+				background-color: #fff;
+				color: #333;
+			}
+			.bgn-wf-row {
+				padding: 5px 0 15px 0;
+				display: flex;
+			}
+			.bgn-wf-label {
+				padding: 7px 20px 5px 0px;
+				width: 26%;
+				border: 0;
+				align-self: center;
+				word-break: break-word;
+				position: relative;
+			}
+			.bgn-wf-field {
+				vertical-align: top;
+				text-align: left;
+				word-break: break-word;
+				border: 0;
+				flex: 1;
+			}
+			.bgn-star {
+				color: #bb0707;
+				width: 10px;
+				height: 10px;
+				z-index: 1;
+				font-size: 14px;
+				text-transform: inherit;
+				position: absolute;
+			}
+			@media screen and (max-width: 590px) {
+				.bgn-wf-wrapper {
+					max-width: 80% !important;
+					border: 0;
+				}
+				.bgn-wf-row,
+				.bgn-wf-label,
+				.bgn-wf-field {
+					display: block;
+					width: 100%;
+				}
+				.bgn-wf-field input[type="text"],
+				.bgn-wf-field select,
+				.bgn-wf-field textarea {
+					width: 100% !important;
+				}
+				.bgn-wf-field div > select {
+					width: auto !important;
+				}
+				.bgn-wf-label:empty {
+					display: none;
+				}
+			}
+		</style>
+	</head>
+	<body class="text-gray-800 antialiased">
+		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TF9N6T5"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
+		<nav
+			class="
+				fixed
+				top-0
+				z-50
+				w-full
+				flex flex-wrap
+				items-center
+				justify-between
+				px-2
+				py-3
+				bg-black
+				shadow-2xl
+			"
+		>
+			<div
+				class="
+					container
+					px-4
+					mx-auto
+					flex flex-wrap
+					items-center
+					justify-between
+				"
+			>
+				<div
+					class="
+						w-full
+						relative
+						flex
+						justify-between
+						lg:w-auto lg:static lg:block lg:justify-start
+					"
+				>
+					<a
+						class="
+							text-sm
+							font-bold
+							leading-relaxed
+							inline-block
+							mr-4
+							py-2
+							whitespace-nowrap
+							text-white
+							uppercase
+						"
+						href="https://automeyt.com"
+						aria-label="Open homepage"
+					>
+						<img
+							src="images/amt33.png"
+							alt="Automeyt Logo"
+							width="200px" height="42px"/></a
+					><button
+						class="
+							cursor-pointer
+							text-xl
+							leading-none
+							px-3
+							py-1
+							border border-solid border-transparent
+							rounded
+							bg-transparent
+							block
+							lg:hidden
+							outline-none
+							focus:outline-none
+						"
+						type="button"
+						onclick="toggleNavbar('example-collapse-navbar')"
+						aria-label="Menu Button"
+					>
+						<img src="images/menu-icon-com.svg" alt="" width="24px" height="24px"></i>
+					</button>
+				</div>
+				<div
+					class="
+						lg:flex
+						flex-grow
+						items-center
+						bg-black
+						lg:bg-transparent lg:shadow-none
+						hidden
+					"
+					id="example-collapse-navbar"
+				>
+					<ul
+						class="
+							flex flex-col
+							lg:flex-row
+							space-x-6
+							list-none
+							lg:ml-auto
+						"
+					>
+						<!-- <li
+							class="
+								flex
+								items-center
+								text-white
+								uppercase
+								hover:underline
+							"
+						>
+							Home
+						</li>
+						<li
+							class="
+								flex
+								items-center
+								text-white
+								uppercase
+								hover:underline
+							"
+						>
+							Services
+						</li>
+						<li
+							class="
+								flex
+								items-center
+								text-white
+								uppercase
+								hover:underline
+							"
+						>
+							<a href="pricing.html">FAQ</a>
+						</li> -->
+						<!-- <li class="flex items-center">
+							<a href="https://automeyt.com">
+								<button
+									class="
+										text-white text-xl
+										font-bold
+										px-3
+										py-1
+										rounded-l-2xl
+										shadow
+										hover:shadow-md
+										outline-none
+										focus:outline-none
+										lg:mr-1 lg:mb-0
+										ml-3
+										mb-3
+										bg-orange
+									"
+									type="button"
+								>
+									<i
+										class="
+											fas
+											fa-arrow-alt-circle-down
+											animate-pulse
+										"
+									></i>
+									Back to Main Site
+								</button>
+							</a>
+						</li> -->
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<main class="bg-black">
+			<!-- Hero Container -->
+			<div
+				class="
+					relative
+					pt-16
+					pb-16
+					flex
+					content-center
+					items-center
+					justify-center
+					bg-black
+				"
+			>
+				<div class="container relative mx-auto">
+					<div class="items-center flex flex-wrap justify-center">
+						<div
+							class="
+								w-full
+								lg:w-6/12
+								px-4
+								py-20
+								ml-auto
+								mr-auto
+								text-center
+							"
+						>
+								<p
+									class="
+										pt-12 sm:pt-0
+										text-white text-2xl md:text-4xl
+									"
+								>
+									<br /><span
+										class="
+											font-bold
+											text-orange text-4xl md:text-6xl
+										"
+										>Reach Out</span
+									><br />
+									<!-- mainly through
+									<span class="text-orange opacity-70"
+										>Zapier</span
+									> -->
+								</p>
+								<p class="mt-4 text-lg text-gray-300">
+									It's time to reduce time in performing
+									repetitive tasks. It's time to lessen or
+									eliminate human errors. It's time to focus
+									more on the most important tasks within the
+									business. It's time to scale up by utilizing
+									the power of automation.
+								</p>
+								<a href="#quote-form">
+								
+							</a>
+						</div>
+					</div>
+				</div>
+				<!-- <div
+					class="
+						top-auto
+						bottom-0
+						left-0
+						right-0
+						w-full
+						absolute
+						pointer-events-none
+						overflow-hidden
+					"
+					style="height: 70px"
+				>
+					<svg
+						class="absolute bottom-0 overflow-hidden"
+						xmlns="http://www.w3.org/2000/svg"
+						preserveAspectRatio="none"
+						version="1.1"
+						viewBox="0 0 2560 100"
+						x="0"
+						y="0"
+					>
+						<polygon
+							class="text-gray-300 fill-current"
+							points="2560 0 2560 100 0 100"
+						></polygon>
+					</svg>
+				</div> -->
+			</div>
+			<div style='padding-bottom: 60px;'>
+				<!-- Note :
+				- You can modify the font style and form style to suit your website. 
+				- Code lines with comments Do not remove this code are required for the form to work properly, make sure that you do not remove these lines of code. 
+				- The Mandatory check script can modified as to suit your business needs. 
+				- It is important that you test the modified form before going live.-->
+				<div id='crmWebToEntityForm' class='zcwf_lblLeft crmWebToEntityForm' style='background-color: white;color: black;max-width: 600px;'>
+					<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+					<META HTTP-EQUIV ='content-type' CONTENT='text/html;charset=UTF-8'>
+					<form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads5254192000000460030 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory5254192000000460030()' accept-charset='UTF-8'>
+				<input type='text' style='display:none;' name='xnQsjsdp' value='848d8166c38047125535fb259ef50fb5021d79ea8f86384c988800714fed7bdf'></input> 
+				<input type='hidden' name='zc_gad' id='zc_gad' value=''></input> 
+				<input type='text' style='display:none;' name='xmIwtLD' value='38eadae10469a5c223c792814de8d13bd8507a58e344414bbfe34179bc63759e'></input> 
+				<input type='text'  style='display:none;' name='actionType' value='TGVhZHM='></input>
+				<input type='text' style='display:none;' name='returnURL' value='https&#x3a;&#x2f;&#x2f;automeyt.com&#x2f;reach-out-confirmation' > </input>
+					<!-- Do not remove this code. -->
+					<input type='text' style='display:none;' id='ldeskuid' name='ldeskuid'></input>
+					<input type='text' style='display:none;' id='LDTuvid' name='LDTuvid'></input>
+					<!-- Do not remove this code. -->
+				<style>
+				html,body{
+					margin: 0px;
+				}
+				#crmWebToEntityForm.zcwf_lblLeft {
+					width:100%;
+					padding: 25px;
+					margin: 0 auto;
+					box-sizing: border-box;
+				}
+				#crmWebToEntityForm.zcwf_lblLeft * {
+					box-sizing: border-box;
+				}
+				#crmWebToEntityForm{text-align: left;}
+				#crmWebToEntityForm * {
+					direction: ltr;
+				}
+				.zcwf_lblLeft .zcwf_title {
+					word-wrap: break-word;
+					padding: 0px 6px 10px;
+					font-weight: bold;
+				}
+				.zcwf_lblLeft .zcwf_col_fld input[type=text], .zcwf_lblLeft .zcwf_col_fld textarea {
+					width: 60%;
+					border: 1px solid #ccc !important;
+					resize: vertical;
+					border-radius: 2px;
+					float: left;
+				}
+				.zcwf_lblLeft .zcwf_col_lab {
+					width: 30%;
+					word-break: break-word;
+					padding: 0px 6px 0px;
+					margin-right: 10px;
+					margin-top: 5px;
+					float: left;
+					min-height: 1px;
+				}
+				.zcwf_lblLeft .zcwf_col_fld {
+					float: left;
+					width: 68%;
+					padding: 0px 6px 0px;
+					position: relative;
+					margin-top: 5px;
+				}
+				.zcwf_lblLeft .zcwf_privacy{padding: 6px;}
+				.zcwf_lblLeft .wfrm_fld_dpNn{display: none;}
+				.dIB{display: inline-block;}
+				.zcwf_lblLeft .zcwf_col_fld_slt {
+					width: 60%;
+					border: 1px solid #ccc;
+					background: #fff;
+					border-radius: 4px;
+					font-size: 12px;
+					float: left;
+					resize: vertical;
+				}
+				.zcwf_lblLeft .zcwf_row:after, .zcwf_lblLeft .zcwf_col_fld:after {
+					content: '';
+					display: table;
+					clear: both;
+				}
+				.zcwf_lblLeft .zcwf_col_help {
+					float: left;
+					margin-left: 7px;
+					font-size: 12px;
+					max-width: 35%;
+					word-break: break-word;
+				}
+				.zcwf_lblLeft .zcwf_help_icon {
+					cursor: pointer;
+					width: 16px;
+					height: 16px;
+					display: inline-block;
+					background: #fff;
+					border: 1px solid #ccc;
+					color: #ccc;
+					text-align: center;
+					font-size: 11px;
+					line-height: 16px;
+					font-weight: bold;
+					border-radius: 50%;
+				}
+				.zcwf_lblLeft .zcwf_row {margin: 15px 0px;}
+				.zcwf_lblLeft .formsubmit {
+					margin-right: 5px;
+					cursor: pointer;
+					color: #333;
+					font-size: 12px;
+				}
+				.zcwf_lblLeft .zcwf_privacy_txt {
+					width: 90%;
+					color: rgb(0, 0, 0);
+					font-size: 12px;
+					font-family: Arial;
+					display: inline-block;
+					vertical-align: top;
+					color: #333;
+					padding-top: 2px;
+					margin-left: 6px;
+				}
+				.zcwf_lblLeft .zcwf_button {
+					font-size: 12px;
+					color: #333;
+					border: 1px solid #ccc;
+					padding: 3px 9px;
+					border-radius: 4px;
+					cursor: pointer;
+					max-width: 120px;
+					overflow: hidden;
+					text-overflow: ellipsis;
+					white-space: nowrap;
+				}
+				.zcwf_lblLeft .zcwf_tooltip_over{
+					position: relative;
+				}
+				.zcwf_lblLeft .zcwf_tooltip_ctn{
+					position: absolute;
+					background: #dedede;
+					padding: 3px 6px;
+					top: 3px;
+					border-radius: 4px;word-break: break-all;
+					min-width: 50px;
+					max-width: 150px;
+					color: #333;
+				}
+				.zcwf_lblLeft .zcwf_ckbox{
+					float: left;
+				}
+				.zcwf_lblLeft .zcwf_file{
+					width: 55%;
+					box-sizing: border-box;
+					float: left;
+				}
+				.clearB:after{
+					content:'';
+					display: block;
+					clear: both;
+				}
+				@media all and (max-width: 600px) {
+					.zcwf_lblLeft .zcwf_col_lab, .zcwf_lblLeft .zcwf_col_fld {
+						width: auto;
+						float: none !important;
+					}
+					.zcwf_lblLeft .zcwf_col_help {width: 40%;}
+				}
+				</style>
+				<div class='zcwf_title' style='max-width: 600px;color: black;'>Main Website Form</div>
+				<div class='zcwf_row'><div class='zcwf_col_lab' style='font-size:12px; font-family: Arial;'><label for='First_Name'>First Name<span style='color:red;'>*</span></label></div><div class='zcwf_col_fld'><input type='text' id='First_Name' name='First Name' maxlength='40'></input><div class='zcwf_col_help'></div></div></div>
+				<div class='zcwf_row'><div class='zcwf_col_lab' style='font-size:12px; font-family: Arial;'><label for='Last_Name'>Last Name<span style='color:red;'>*</span></label></div><div class='zcwf_col_fld'><input type='text' id='Last_Name' name='Last Name' maxlength='80'></input><div class='zcwf_col_help'></div></div></div>
+				<div class='zcwf_row'><div class='zcwf_col_lab' style='font-size:12px; font-family: Arial;'><label for='Email'>Email<span style='color:red;'>*</span></label></div><div class='zcwf_col_fld'><input type='text' ftype='email' id='Email' name='Email' maxlength='100'></input><div class='zcwf_col_help'></div></div></div>
+				<div class='zcwf_row'><div class='zcwf_col_lab' style='font-size:12px; font-family: Arial;'><label for='Company'>Company<span style='color:red;'>*</span></label></div><div class='zcwf_col_fld'><input type='text' id='Company' name='Company' maxlength='200'></input><div class='zcwf_col_help'></div></div></div>
+				<div class='zcwf_row'><div class='zcwf_col_lab' style='font-size:12px; font-family: Arial;'><label for='Description'>Description<span style='color:red;'>*</span></label></div><div class='zcwf_col_fld'><textarea id='Description' name='Description'></textarea><div class='zcwf_col_help'></div></div></div><div class='zcwf_row'><div class='zcwf_col_lab'></div><div class='zcwf_col_fld'><input type='submit' id='formsubmit' class='formsubmit zcwf_button' value='Submit' title='Submit'><input type='reset' class='zcwf_button' name='reset' value='Clear' title='Clear'></div></div>
+					<script>
+					function validateEmail5254192000000460030()
+					{
+						var form = document.forms['WebToLeads5254192000000460030'];
+						var emailFld = form.querySelectorAll('[ftype=email]');
+						var i;
+						for (i = 0; i < emailFld.length; i++)
+						{
+							var emailVal = emailFld[i].value;
+							if((emailVal.replace(/^\s+|\s+$/g, '')).length!=0 )
+							{
+								var atpos=emailVal.indexOf('@');
+								var dotpos=emailVal.lastIndexOf('.');
+								if (atpos<1 || dotpos<atpos+2 || dotpos+2>=emailVal.length)
+								{
+									alert('Please enter a valid email address. ');
+									emailFld[i].focus();
+									return false;
+								}
+							}
+						}
+						return true;
+					}
+				
+						function checkMandatory5254192000000460030() {
+						var mndFileds = new Array('Company','First Name','Last Name','Email','Description');
+						var fldLangVal = new Array('Company','First\x20Name','Last\x20Name','Email','Description');
+						for(i=0;i<mndFileds.length;i++) {
+							var fieldObj=document.forms['WebToLeads5254192000000460030'][mndFileds[i]];
+							if(fieldObj) {
+							if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length==0) {
+							if(fieldObj.type =='file')
+								{ 
+								alert('Please select a file to upload.'); 
+								fieldObj.focus(); 
+								return false;
+								} 
+							alert(fldLangVal[i] +' cannot be empty.'); 
+										fieldObj.focus();
+										return false;
+							}  else if(fieldObj.nodeName=='SELECT') {
+									if(fieldObj.options[fieldObj.selectedIndex].value=='-None-') {
+								alert(fldLangVal[i] +' cannot be none.'); 
+								fieldObj.focus();
+								return false;
+								}
+							} else if(fieldObj.type =='checkbox'){
+								if(fieldObj.checked == false){
+								alert('Please accept  '+fldLangVal[i]);
+								fieldObj.focus();
+								return false;
+								} 
+							} 
+							try {
+								if(fieldObj.name == 'Last Name') {
+								name = fieldObj.value;
+									}
+							} catch (e) {}
+							}
+						}
+						trackVisitor5254192000000460030();
+						if(!validateEmail5254192000000460030()){return false;}
+						document.querySelector('.crmWebToEntityForm .formsubmit').setAttribute('disabled', true);
+					}
+				
+				function tooltipShow5254192000000460030(el){
+					var tooltip = el.nextElementSibling;
+					var tooltipDisplay = tooltip.style.display;
+					if(tooltipDisplay == 'none'){
+						var allTooltip = document.getElementsByClassName('zcwf_tooltip_over');
+						for(i=0; i<allTooltip.length; i++){
+							allTooltip[i].style.display='none';
+						}
+						tooltip.style.display = 'block';
+					}else{
+						tooltip.style.display='none';
+					}
+				}
+				</script><script type='text/javascript' id='VisitorTracking'>var $zoho= $zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:'46111662d04091d5c8dbed220167f1740da32d48a6c70ecfe670ec6d5d1bf385', values:{},ready:function(){}};var d=document;s=d.createElement('script');s.type='text/javascript';s.id='zsiqscript';s.defer=true;s.src='https://salesiq.zoho.com/widget';t=d.getElementsByTagName('script')[0];t.parentNode.insertBefore(s,t);function trackVisitor5254192000000460030(){try{if($zoho){var LDTuvidObj = document.forms['WebToLeads5254192000000460030']['LDTuvid'];if(LDTuvidObj){LDTuvidObj.value = $zoho.salesiq.visitor.uniqueid();}var firstnameObj = document.forms['WebToLeads5254192000000460030']['First Name'];if(firstnameObj){name = firstnameObj.value +' '+name;}$zoho.salesiq.visitor.name(name);var emailObj = document.forms['WebToLeads5254192000000460030']['Email'];if(emailObj){email = emailObj.value;$zoho.salesiq.visitor.email(email);}}} catch(e){}}</script>
+					<!-- Do not remove this --- Analytics Tracking code starts --><script id='wf_anal' src='https://crm.zohopublic.com/crm/WebFormAnalyticsServeServlet?rid=38eadae10469a5c223c792814de8d13bd8507a58e344414bbfe34179bc63759egid848d8166c38047125535fb259ef50fb5021d79ea8f86384c988800714fed7bdfgid885e3c1045bd9bdcc91bdf30f82b5696gid14f4ec16431e0686150daa43f3210513&tw=61690b96c1d0471b638f31426f38e68aa67fb7ed6da86f32dc10ad817fe55a0a'></script><!-- Do not remove this --- Analytics Tracking code ends. --></form>
+				</div>	
+			</div>
+
+		</main>
+		<footer class="relative bg-gray-300 pt-8 pb-6">
+			<div
+				class="
+					bottom-auto
+					top-0
+					left-0
+					right-0
+					w-full
+					absolute
+					pointer-events-none
+					overflow-hidden
+					-mt-20
+				"
+				style="height: 80px"
+			>
+				<svg
+					class="absolute bottom-0 overflow-hidden"
+					xmlns="http://www.w3.org/2000/svg"
+					preserveAspectRatio="none"
+					version="1.1"
+					viewBox="0 0 2560 100"
+					x="0"
+					y="0"
+				>
+					<polygon
+						class="text-gray-300 fill-current"
+						points="2560 0 2560 100 0 100"
+					></polygon>
+				</svg>
+			</div>
+			<div class="container mx-auto px-4">
+				<div class="md:flex justify-evenly items-center">
+					<div class="w-full lg:w-1/2">
+						<img
+							src="images/amt13.png"
+							alt=""
+							class="flex justify-center"
+							width="752px"
+							height="164px"
+						/>
+					</div>
+					<div class="w-full lg:w-1/2">
+						<div
+							class="
+								flex
+								justify-center
+								lg:justify-end
+								space-x-8
+								lg:ml-auto
+								mb-6
+							"
+						>
+							<!-- <div class="flex flex-col px-4">
+								<ul class="list-unstyled">
+									<li>
+										<a
+											class="
+												text-gray-700
+												hover:text-gray-900
+												font-semibold
+												block
+												pb-2
+												text-sm
+											"
+											href="https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md"
+											>Use Cases</a
+										>
+									</li>
+									<li>
+										<a
+											class="
+												text-gray-700
+												hover:text-gray-900
+												font-semibold
+												block
+												pb-2
+												text-sm
+											"
+											href="https://creative-tim.com/terms"
+											>FAQ</a
+										>
+									</li>
+									<li>
+										<a
+											class="
+												text-gray-700
+												hover:text-gray-900
+												font-semibold
+												block
+												pb-2
+												text-sm
+											"
+											href="https://creative-tim.com/privacy"
+											>Blog</a
+										>
+									</li>
+									<li>
+										<a
+											class="
+												text-gray-700
+												hover:text-gray-900
+												font-semibold
+												block
+												pb-2
+												text-sm
+											"
+											href="https://creative-tim.com/contact-us"
+											>Portfolio</a
+										>
+									</li>
+									<li>
+										<a
+											class="
+												text-gray-700
+												hover:text-gray-900
+												font-semibold
+												block
+												pb-2
+												text-sm
+											"
+											href="https://creative-tim.com/contact-us"
+											>Support</a
+										>
+									</li>
+								</ul>
+							</div>
+							<div class="flex flex-col px-4">
+								<ul class="list-unstyled">
+									<li>
+										<a
+											class="
+												text-gray-700
+												hover:text-gray-900
+												font-semibold
+												block
+												pb-2
+												text-sm
+											"
+											href="https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md"
+											>About</a
+										>
+									</li>
+									<li>
+										<a
+											class="
+												text-gray-700
+												hover:text-gray-900
+												font-semibold
+												block
+												pb-2
+												text-sm
+											"
+											href="https://creative-tim.com/terms"
+											>Terms &amp; Conditions</a
+										>
+									</li>
+									<li>
+										<a
+											class="
+												text-gray-700
+												hover:text-gray-900
+												font-semibold
+												block
+												pb-2
+												text-sm
+											"
+											href="https://creative-tim.com/privacy"
+											>Privacy Policy</a
+										>
+									</li>
+									<li>
+										<a
+											class="
+												text-gray-700
+												hover:text-gray-900
+												font-semibold
+												block
+												pb-2
+												text-sm
+											"
+											href="https://creative-tim.com/privacy"
+											>Accessibility</a
+										>
+									</li>
+									<li>
+										<a
+											class="
+												text-gray-700
+												hover:text-gray-900
+												font-semibold
+												block
+												pb-2
+												text-sm
+											"
+											href="https://creative-tim.com/contact-us"
+											>Sitemap</a
+										>
+									</li>
+								</ul>
+							</div> -->
+						</div>
+					</div>
+				</div>
+				<hr class="my-6 border-gray-400" />
+				<div
+					class="
+						w-full
+						flex flex-col
+						lg:flex-row
+						justify-center
+						lg:justify-start
+						items-center
+					"
+				>
+					<div class="flex justify-center lg:justify-start lg:w-3/12">
+						<!-- Upwork Icon -->
+						<a
+							href="https://www.upwork.com/freelancers/~0105b4581377de52ba"
+							rel="noopener noreferrer"
+							target="_blank"
+						>
+							<button
+								class="
+									bg-white
+									text-black
+									shadow-lg
+									font-normal
+									h-10
+									w-10
+									items-center
+									justify-center
+									align-center
+									rounded-full
+									outline-none
+									mr-2
+									p-3
+								"
+								type="button"
+								aria-label="Explore Upwork Profile"
+							>
+								<img
+									src="images/upwork-icon.svg"
+									alt="" width="16px" height="16px"
+								/></button
+						></a>
+						<!-- Facebook Icon -->
+						<a
+							href="https://www.facebook.com/automeyt"
+							rel="noopener noreferrer"
+							target="_blank"
+						>
+						<button
+							class="
+								bg-white
+								text-blue-600
+								shadow-lg
+								font-normal
+								h-10
+								w-10
+								items-center
+								justify-center
+								align-center
+								rounded-full
+								outline-none
+								mr-2
+								p-3
+							"
+							type="button"
+							aria-label="Explore Facebook Page"
+						>
+							<img src="images/facebook-icon.svg" alt="" width="16px" height="16px"></button
+						></a>
+						<!-- Linkedin Icon -->
+						<a
+							href="https://www.linkedin.com/in/kyooreas/"
+							rel="noopener noreferrer"
+							target="_blank"
+						>
+						<button
+							class="
+								bg-white
+								text-black
+								shadow-lg
+								font-normal
+								h-10
+								w-10
+								items-center
+								justify-center
+								align-center
+								rounded-full
+								outline-none
+								mr-2
+								p-3
+							"
+							type="button"
+							aria-label="Explore Linkedin Profile"
+						>
+							<img src="images/linkedin-icon.svg" alt="" width="16px" height="16px"></i>
+						</button></a>
+					</div>
+					<div class="flex justify-center text-center lg:w-6/12">
+						<div class="text-sm text-gray-600 font-semibold py-1">
+							Copyright © 2022 Automeyt.
+							<!-- <br class="sm:hidden" />
+							<span class="text-gray-600 hover:text-gray-900">
+								Developed & maintained by
+							</span>
+							<a
+								href="https://kyooreas.xyz"
+								rel="noopener noreferrer"
+								target="_blank"
+								><span class="text-blue underline"
+									>Kyooreas</span
+								></a
+							> -->
+						</div>
+					</div>
+
+					<!-- <button
+						class="
+							fixed
+							rounded-full
+							h-14
+							w-14
+							hover:animate-bounce
+							right-5
+							bottom-5
+						"
+						onclick="scrollToTop()"
+						aria-label="Scroll To Top"
+					>
+						<img src="images/arrow-up.svg" alt="" width="56px" height="56px"/>
+					</button> -->
+				</div>
+			</div>
+		</footer>
+	</body>
+	<script>
+		function toggleNavbar(collapseID) {
+			document.getElementById(collapseID).classList.toggle("hidden");
+			document.getElementById(collapseID).classList.toggle("block");
+		}
+	</script>
+	<script>
+		function toggleMenu() {
+			const navToggle = document.getElementsByClassName("toggle");
+			for (let i = 0; i < navToggle.length; i++) {
+				navToggle.item(i).classList.toggle("hidden");
+			}
+		}
+
+		function scrollToTop() {
+			window.scrollTo(0, 0);
+		}
+	</script>
+</html>

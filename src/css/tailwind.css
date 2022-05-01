@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+	html {
+		@apply smooth-scroll;
+	}
+}
+
+@layer utilities {
+	.smooth-scroll {
+		scroll-behavior: smooth;
+	}
+}
