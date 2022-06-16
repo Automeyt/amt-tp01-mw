@@ -20,4 +20,18 @@ class AmtHeader extends HTMLElement {
     }
 }
 
+class AmtFooter extends HTMLElement {
+    connectedCallback() {
+        this.innerHTML = `
+            <footer class="">
+                <p href="#" class="">
+                    Copyright © 2022 Automeyt.
+                </p>
+            </footer>
+        `
+    }
+}
+
 customElements.define('amt-header', AmtHeader);
+customElements.define('amt-footer', AmtFooter);
+
