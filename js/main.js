@@ -19,3 +19,5 @@ class AmtHeader extends HTMLElement {
         `
     }
 }
+
+customElements.define('amt-header', AmtHeader);
