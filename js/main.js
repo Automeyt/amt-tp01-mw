@@ -23,7 +23,7 @@ class AmtHeader extends HTMLElement {
 class AmtFooter extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-            <footer class="bg-black text-white grid grid-flow-col auto-cols-max">
+            <footer class="bg-black text-white grid grid-cols-2">
                 <div class="grid grid-flow-col auto-cols-max">
                     <!-- Upwork Icon -->
                     <a href="https://www.upwork.com/freelancers/~0105b4581377de52ba" rel="noopener noreferrer" target="_blank">

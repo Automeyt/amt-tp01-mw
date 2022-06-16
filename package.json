@@ -122,8 +122,8 @@
     "yaml": "^1.10.2"
   },
   "scripts": {
-    "tw:build": "tailwindcss build -i ./src/css/tailwind.css -o ./public/css/tailwind.css",
-    "tw:watch": "npx tailwindcss -o public/css/tailwind.css"
+    "build": "tailwindcss build -i ./src/css/tailwind.css -o ./css/main.css",
+    "watch": "npx tailwindcss -o public/css/tailwind.css"
   },
   "repository": {
     "type": "git",
