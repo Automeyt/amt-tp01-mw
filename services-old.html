@@ -1,0 +1,1518 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Automeyt</title>
+		<meta
+			name="description"
+			content="Streamline business workflows through automation using Zapier."
+		/>
+		<link rel="shortcut icon" href="./assets/img/favicon.ico" />
+		<link
+			rel="apple-touch-icon"
+			sizes="76x76"
+			href="./assets/img/apple-icon.png"
+		/>
+		<link rel="stylesheet" href="css/tailwind.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+		/>
+	</head>
+	<body class="text-gray-800 antialiased">
+		<nav
+			class="
+				fixed
+				top-0
+				z-50
+				w-full
+				flex flex-wrap
+				items-center
+				justify-between
+				px-2
+				py-3
+				bg-black
+				shadow-2xl
+			"
+		>
+			<div
+				class="
+					container
+					px-4
+					mx-auto
+					flex flex-wrap
+					items-center
+					justify-between
+				"
+			>
+				<div
+					class="
+						w-full
+						relative
+						flex
+						justify-between
+						lg:w-auto lg:static lg:block lg:justify-start
+					"
+				>
+					<a
+						class="
+							text-sm
+							font-bold
+							leading-relaxed
+							inline-block
+							mr-4
+							py-2
+							whitespace-nowrap
+							text-white
+							uppercase
+						"
+						href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
+						aria-label="Open homepage"
+					>
+						<img src="images/amt33.png" alt="Automeyt logo" width="200px" /></a
+					><button
+						class="
+							cursor-pointer
+							text-xl
+							leading-none
+							px-3
+							py-1
+							border border-solid border-transparent
+							rounded
+							bg-transparent
+							block
+							lg:hidden
+							outline-none
+							focus:outline-none
+						"
+						type="button"
+						onclick="toggleNavbar('example-collapse-navbar')"
+					>
+						<i class="text-white fas fa-bars"></i>
+					</button>
+				</div>
+				<div
+					class="
+						lg:flex
+						flex-grow
+						items-center
+						bg-white
+						lg:bg-transparent lg:shadow-none
+						hidden
+					"
+					id="example-collapse-navbar"
+				>
+					<ul
+						class="
+							flex flex-col
+							lg:flex-row
+							space-x-6
+							list-none
+							lg:ml-auto
+						"
+					>
+						<li
+							class="
+								flex
+								items-center
+								text-white
+								uppercase
+								hover:underline
+							"
+						>
+							Home
+						</li>
+						<li
+							class="
+								flex
+								items-center
+								text-white
+								uppercase
+								hover:underline
+							"
+						>
+							Services
+						</li>
+						<li
+							class="
+								flex
+								items-center
+								text-white
+								uppercase
+								hover:underline
+							"
+						>
+							<a href="pricing.html">FAQ</a>
+						</li>
+						<li class="flex items-center">
+							<a href="#quote-form">
+								<button
+									class="
+										text-white text-xl
+										font-bold
+										uppercase
+										px-3
+										py-1
+										rounded-l-2xl
+										shadow
+										hover:shadow-md
+										outline-none
+										focus:outline-none
+										lg:mr-1 lg:mb-0
+										ml-3
+										mb-3
+										bg-orange
+										hover:bg-opacity-80
+									"
+									type="button"
+								>
+									<i
+										class="
+											fas
+											fa-arrow-alt-circle-down
+											animate-pulse
+										"
+									></i>
+									Request a Quote
+								</button>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<main>
+			<div
+				class="
+					relative
+					pt-16
+					pb-32
+					flex
+					content-center
+					items-center
+					justify-center
+					bg-black
+				"
+				style="min-height: 75vh"
+			>
+				<div
+					class="absolute top-30 w-96 h-80 bg-center bg-cover"
+					style="
+						/* background-image: url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1267&amp;q=80'); */
+						/* background-image: url('images/amt12.png');  */
+					"
+				>
+					<!-- <span
+						id="blackOverlay"
+						class="w-full h-full absolute opacity-75 bg-black"
+					></span> -->
+				</div>
+				<div class="container relative mx-auto">
+					<div class="items-center flex flex-wrap">
+						<div
+							class="
+								w-full
+								lg:w-6/12
+								px-4
+								ml-auto
+								mr-auto
+								text-center
+							"
+						>
+							<div class="pr-12">
+								<h2 class="text-2xl md:text-4xl text-gray-300">
+									<span
+										class="
+											font-bold
+											text-4xl
+											md:text-6xl
+											text-orange
+										"
+										>Services</span
+									><br />optimized for your needs
+								</h2>
+								<!-- <p class="mt-4 text-lg text-gray-300">
+									It's time to reduce time in performing
+									repetitive tasks. It's time to lessen or
+									eliminate human errors. It's time to focus
+									more on the most important tasks within the
+									business. It's time to scale up by utilizing
+									the power of automation.
+								</p> -->
+							</div>
+						</div>
+					</div>
+				</div>
+				<div
+					class="
+						top-auto
+						bottom-0
+						left-0
+						right-0
+						w-full
+						absolute
+						pointer-events-none
+						overflow-hidden
+					"
+					style="height: 70px"
+				>
+					<svg
+						class="absolute bottom-0 overflow-hidden"
+						xmlns="http://www.w3.org/2000/svg"
+						preserveAspectRatio="none"
+						version="1.1"
+						viewBox="0 0 2560 100"
+						x="0"
+						y="0"
+					>
+						<polygon
+							class="text-gray-300 fill-current"
+							points="2560 0 2560 100 0 100"
+						></polygon>
+					</svg>
+				</div>
+			</div>
+			<section class="pb-20 bg-gray-300 -mt-24">
+				<div class="container mx-auto px-4">
+					<div class="flex flex-wrap">
+						<div
+							class="
+								lg:pt-12
+								pt-12
+								w-full
+								md:w-6/12
+								px-4
+								text-center
+							"
+						>
+							<div
+								class="
+									relative
+									flex flex-col
+									min-w-0
+									break-words
+									bg-white
+									w-full
+									mb-8
+									shadow-lg
+									rounded-lg
+								"
+							>
+								<div class="px-4 py-5 flex-auto">
+									<!-- <div
+										class="
+											text-white
+											p-3
+											text-center
+											inline-flex
+											items-center
+											justify-center
+											w-12
+											h-12
+											mb-5
+											shadow-lg
+											rounded-full
+											bg-red-400
+										"
+									>
+										<i class="fas fa-award"></i>
+									</div> -->
+									<p class="text-xl font-semibold">
+										Per zap/automation Pricing
+									</p>
+									<p class="mt-2 mb-4 text-gray-600">
+										Divide details about your product or
+										agency work into parts. A paragraph
+										describing a feature will be enough.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="pt-6 w-full md:w-6/12 px-4 text-center">
+							<div
+								class="
+									relative
+									flex flex-col
+									min-w-0
+									break-words
+									bg-white
+									w-full
+									mb-8
+									shadow-lg
+									rounded-lg
+								"
+							>
+								<div class="px-4 py-5 flex-auto">
+									<!-- <div
+										class="
+											text-white
+											p-3
+											text-center
+											inline-flex
+											items-center
+											justify-center
+											w-12
+											h-12
+											mb-5
+											shadow-lg
+											rounded-full
+											bg-blue-400
+										"
+									>
+										<i class="fas fa-retweet"></i>
+									</div> -->
+									<p class="text-xl font-semibold">
+										Monthly Subscription Pricing
+									</p>
+									<p class="mt-2 mb-4 text-gray-600">
+										Keep you user engaged by providing
+										meaningful information. Remember that by
+										this time, the user is curious.
+									</p>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+					<!-- Per zap/automation -->
+					<div class="min-h-screen flex justify-center items-center">
+						<div class="">
+							<div class="text-center font-semibold">
+								<h3 class="text-5xl">
+									<span class="text-blue-700 tracking-wide"
+										>Per zap/automation</span
+									>
+								</h3>
+								<p
+									class="
+										pt-6
+										text-xl text-black
+										font-normal
+										w-full
+										px-8
+										md:w-full
+									"
+								>
+									Choose a plan that works best for you and<br />
+									your team.
+								</p>
+							</div>
+							<div
+								class="
+									pt-6
+									flex flex-row flex-wrap
+									justify-center
+								"
+							>
+								<!-- Minor Changes -->
+								<div class="w-full md:w-60 lg:w-80 xl:w-96 py-2 px-4 md:px-0">
+									<div
+										class="
+                                        w-full
+                                        p-4
+                                        bg-white
+                                        text-center
+                                        rounded-3xl
+                                        shadow-3xl
+										"
+									>
+										<p
+											class="
+												text-black
+												font-semibold
+												text-xl
+												lg:text-2xl
+											"
+										>
+											Minor
+										</p>
+										<p class="py-2 tracking-wide">
+											<span class="text-xl
+                                            lg:text-2xl font-semibold"
+												>$55 / zap</span
+											>
+										</p>
+										<hr class="py-2 border-1" />
+										<div
+											class="flex flex-col space-y-3 pt-2 py-4 "
+										>
+											<div
+												class="
+													flex flex-col
+													justify-center
+                                                    space-y-3
+													font-semibold
+												"
+											>
+												<p class="pr-2">
+													Minor updates
+												</p>
+                                                <p class="pr-2">
+													Minor modifications
+												</p>
+                                                <p class="pr-2">
+													Revisions within 7 days
+												</p>
+                                                <p class="pl-2">
+                                                    <a href="services/minor.html">More info about Minor Zaps</a>
+                                                </p>
+											</div>
+										
+                                            <!-- <p class="pt-2"
+                                            ><a href="#" class="">
+                                                <button class="font-medium rounded-xl bg-orange p-2 text-black">
+                                                    Choose Plan
+                                                </button></a>
+                                            </p> -->
+										</div>
+									</div>
+								</div>
+                                
+                                <!-- Simple Zap -->
+								<div class="w-full md:w-60 lg:w-80 xl:w-96 py-2 px-4 md:px-0 md:transform md:scale-125">
+									<div
+										class="
+                                        w-full
+                                        p-4
+                                        bg-gray-900
+                                        text-center
+                                        text-white
+                                        rounded-3xl
+                                        shadow-3xl
+										"
+									>
+										<p
+											class="
+												
+												font-semibold
+                                                text-xl
+												lg:text-2xl
+											"
+										>
+                                        Simple
+										</p>
+										<p class="py-2 tracking-wide">
+											<span class="text-2xl font-semibold"
+												>$110 / zap</span
+											>
+										</p>
+										<hr class="py-2 border-1" />
+										<div
+											class="flex flex-col space-y-3 pt-2 py-4 "
+										>
+                                        <div
+                                        class="
+                                            flex flex-col
+                                            justify-center
+                                            space-y-3
+                                            font-semibold
+                                        "
+                                    >
+                                        <p class="">
+                                            Simple zaps
+                                        </p>
+                                        <p class="">
+                                            Built-in triggers/actions
+                                        </p>
+                                        <p class="">
+                                            Revisions within 14 days
+                                        </p>
+                                        <p class="pl-2">
+                                            <a href="services/simple.html" >More info about Simple Zaps</a>
+                                        </p>
+                                    </div>
+										
+                                            <!-- <p class="pt-2"
+                                            ><a href="#" class="">
+                                                <button class="font-medium rounded-xl bg-orange p-2 text-black">
+                                                    Choose Plan
+                                                </button></a>
+                                            </p> -->
+										</div>
+									</div>
+								</div>
+								
+								<!-- Complex Zap -->
+                                <div class="w-full md:w-60 lg:w-80 xl:w-96 py-2 px-4 md:px-0">
+									<div
+										class="
+                                        w-full
+                                        p-4
+                                        bg-white
+                                        text-center
+                                        rounded-3xl
+                                        shadow-3xl
+										"
+									>
+										<p
+											class="
+												text-black
+												font-semibold
+												text-xl
+												lg:text-2xl
+											"
+										>
+                                        Complex
+										</p>
+										<p class="py-2 tracking-wide">
+											<span class="text-2xl font-semibold"
+												>$220 / zap</span
+											>
+										</p>
+										<hr class="py-2 border-1" />
+										<div
+											class="flex flex-col space-y-3 pt-2 py-4 "
+										>
+                                        <div
+                                        class="
+                                            flex flex-col
+                                            justify-center
+                                            space-y-3
+                                            font-semibold
+                                        "
+                                    >
+                                        <p class="pl-2">
+                                            Complex zaps
+                                        </p>
+                                        <p class="pl-2">
+                                            Custom triggers/actions
+                                        </p>
+                                        <p class="pl-2">
+                                            Revisions within 30 days
+                                        </p>
+                                        <p class="pl-2">
+                                            <a href="services/complex.html" >More info about Complex Zaps</a>
+                                        </p>
+                                    </div>
+										
+                                            <!-- <p class="pt-2"
+                                            ><a href="#" class="">
+                                                <button class="font-medium rounded-xl bg-orange p-2 text-black">
+                                                    Choose Plan
+                                                </button></a>
+                                            </p> -->
+										</div>
+									</div>
+								</div>
+                            </div>
+							</div>
+						</div>
+					</div>
+
+                    <!-- Monthly Subscription -->
+					<div class="min-h-screen flex justify-center items-center">
+						<div class="">
+							<div class="text-center font-semibold">
+								<h3 class="text-5xl">
+									<span class="text-blue-700 tracking-wide"
+										>Monthly Subscription</span
+									>
+								</h3>
+								<p
+									class="
+										pt-6
+										text-xl text-black
+										font-normal
+										w-full
+										px-8
+									"
+								>
+									Choose a plan that works best for you and<br />
+									your team.
+								</p>
+							</div>
+							<div
+								class="
+									pt-6
+									flex flex-row flex-wrap
+									justify-center
+								"
+							>
+
+                                <!-- Managed Zapier -->
+								<div class="w-full md:w-80 lg:w-96 py-2 px-0 md:px-0 md:transform md:scale-125">
+									<div
+										class="
+                                        w-full
+                                        p-4
+                                        bg-gray-900
+                                        text-center
+                                        text-white
+                                        rounded-3xl
+                                        shadow-3xl
+										"
+									>
+										<p
+											class="
+												
+												font-semibold
+                                                text-xl
+												lg:text-2xl
+											"
+										>
+                                        Managed Zapier
+										</p>
+										<p class="py-2 tracking-wide">
+											<span class="text-2xl font-semibold"
+												>$1300 / month</span
+											>
+										</p>
+										<hr class="py-2 border-1" />
+										<div
+											class="flex flex-col space-y-3 pt-2 py-4 "
+										>
+                                        <div
+                                        class="
+                                            flex flex-col
+                                            justify-center
+                                            space-y-3
+                                            font-semibold
+                                        "
+                                    >
+                                        <p class="">
+                                            Automations within Zapier
+                                        </p>
+                                        <p class="">
+                                            Monitoring / Reports
+                                        </p>
+                                        <p class="">
+                                            Always First Priority
+                                        </p>
+                                        <p class="pl-2">
+                                            <a href="services/managed-zapier.html">More info about Managed Zapier</a>
+                                        </p>
+                                    </div>
+										
+                                            <!-- <p class="pt-2"
+                                            ><a href="#" class="">
+                                                <button class="font-medium rounded-xl bg-orange p-2 text-black">
+                                                    Choose Plan
+                                                </button></a>
+                                            </p> -->
+										</div>
+									</div>
+								</div>
+								
+								<!-- Managed Automation -->
+                                <div class="w-full md:w-80 lg:w-96 py-2 px-4 md:px-0">
+									<div
+										class="
+                                        w-full
+                                        p-4
+                                        bg-white
+                                        text-center
+                                        rounded-3xl
+                                        shadow-3xl
+										"
+									>
+										<p
+											class="
+												text-black
+												font-semibold
+												text-xl
+												lg:text-2xl
+											"
+										>
+                                        Managed Automation
+										</p>
+										<p class="py-2 tracking-wide">
+											<span class="text-2xl font-semibold"
+												>$2600 / month</span
+											>
+										</p>
+										<hr class="py-2 border-1" />
+										<div
+											class="flex flex-col space-y-3 pt-2 py-4 "
+										>
+                                        <div
+                                        class="
+                                            flex flex-col
+                                            justify-center
+                                            space-y-3
+                                            font-semibold
+                                        "
+                                    >
+                                        <p class="pl-2">
+                                            Automations within any applications
+                                        </p>
+                                        <p class="pl-2">
+                                            Monitoring / Reports
+                                        </p>
+                                        <p class="pl-2">
+                                            Always First Priority
+                                        </p>
+                                        <p class="pl-2">
+                                            <a href="services/managed-automation.html" >More info about Managed Automation</a>
+                                        </p>
+                                    </div>
+										
+                                            <!-- <p class="pt-2"
+                                            ><a href="#" class="">
+                                                <button class="font-medium rounded-xl bg-orange p-2 text-black">
+                                                    Choose Plan
+                                                </button></a>
+                                            </p> -->
+										</div>
+									</div>
+								</div>
+                            </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="relative py-20">
+				<div
+					class="
+						bottom-auto
+						top-0
+						left-0
+						right-0
+						w-full
+						absolute
+						pointer-events-none
+						overflow-hidden
+						-mt-20
+					"
+					style="height: 80px"
+				>
+					<svg
+						class="absolute bottom-0 overflow-hidden"
+						xmlns="http://www.w3.org/2000/svg"
+						preserveAspectRatio="none"
+						version="1.1"
+						viewBox="0 0 2560 100"
+						x="0"
+						y="0"
+					>
+						<polygon
+							class="text-white fill-current"
+							points="2560 0 2560 100 0 100"
+						></polygon>
+					</svg>
+				</div>
+				<div class="container mx-auto px-4">
+					<div class="items-center flex flex-wrap">
+						<div class="w-full md:w-4/12 ml-auto mr-auto px-4">
+							<img
+								alt="..."
+								class="max-w-full rounded-lg shadow-lg"
+								src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=634&amp;q=80"
+							/>
+						</div>
+						<div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+							<div class="md:pr-12">
+								<div
+									class="
+										text-pink-600
+										p-3
+										text-center
+										inline-flex
+										items-center
+										justify-center
+										w-16
+										h-16
+										mb-6
+										shadow-lg
+										rounded-full
+										bg-pink-300
+									"
+								>
+									<i class="fas fa-rocket text-xl"></i>
+								</div>
+								<h3 class="text-3xl font-semibold">
+									Fresh Start
+								</h3>
+								<p
+									class="
+										mt-4
+										text-lg
+										leading-relaxed
+										text-gray-600
+									"
+								>
+									An upwork freelancer scaling up his freelancing business. Ready to handle more clients and ready to grow into a team.
+								</p>
+								<ul class="list-none mt-6">
+									<li class="py-2">
+										<div class="flex items-center">
+											<div>
+												<span
+													class="
+														text-xs
+														font-semibold
+														inline-block
+														py-1
+														px-2
+														uppercase
+														rounded-full
+														text-pink-600
+														bg-pink-200
+														mr-3
+													"
+													><i
+														class="
+															fas
+															fa-fingerprint
+														"
+													></i
+												></span>
+											</div>
+											<div>
+												<p class="text-gray-600">
+													Carefully crafted components
+												</p>
+											</div>
+										</div>
+									</li>
+									<li class="py-2">
+										<div class="flex items-center">
+											<div>
+												<span
+													class="
+														text-xs
+														font-semibold
+														inline-block
+														py-1
+														px-2
+														uppercase
+														rounded-full
+														text-pink-600
+														bg-pink-200
+														mr-3
+													"
+													><i class="fab fa-html5"></i
+												></span>
+											</div>
+											<div>
+												<p class="text-gray-600">
+													Amazing page examples
+												</p>
+											</div>
+										</div>
+									</li>
+									<li class="py-2">
+										<div class="flex items-center">
+											<div>
+												<span
+													class="
+														text-xs
+														font-semibold
+														inline-block
+														py-1
+														px-2
+														uppercase
+														rounded-full
+														text-pink-600
+														bg-pink-200
+														mr-3
+													"
+													><i
+														class="
+															far
+															fa-paper-plane
+														"
+													></i
+												></span>
+											</div>
+											<div>
+												<p class="text-gray-600">
+													Dynamic components
+												</p>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="pb-20 relative block bg-black">
+				<div
+					class="
+						bottom-auto
+						top-0
+						left-0
+						right-0
+						w-full
+						absolute
+						pointer-events-none
+						overflow-hidden
+						-mt-20
+					"
+					style="height: 80px"
+				>
+					<svg
+						class="absolute bottom-0 overflow-hidden"
+						xmlns="http://www.w3.org/2000/svg"
+						preserveAspectRatio="none"
+						version="1.1"
+						viewBox="0 0 2560 100"
+						x="0"
+						y="0"
+					>
+						<polygon
+							class="text-gray-900"
+							points="2560 0 2560 100 0 100"
+						></polygon>
+					</svg>
+				</div>
+				<div class="container mx-auto px-4 lg:pt-24 lg:pb-64"  id="quote-form">
+					<div class="flex flex-wrap text-center justify-center">
+						<div class="w-full lg:w-6/12 px-4">
+							<h3 class="text-4xl font-semibold text-white">
+								Build something
+							</h3>
+							<p
+								class="
+									text-lg
+									leading-relaxed
+									mt-4
+									mb-4
+									text-white
+								"
+							>
+								Put the potentially record low maximum sea ice
+								extent tihs year down to low ice. According to
+								the National Oceanic and Atmospheric
+								Administration, Ted, Scambos.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="relative block py-24 lg:pt-0 bg-black">
+				<div class="container mx-auto px-4">
+					<div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
+						<div class="w-full lg:w-6/12 px-4">
+							<div
+								class="
+									relative
+									flex flex-col
+									min-w-0
+									break-words
+									w-full
+									mb-6
+									shadow-lg
+									rounded-lg
+									bg-gray-300
+								"
+							>
+								
+							<!-- Contact Form -->
+								<!-- <div class="flex-auto p-5 lg:p-10">
+									<div class="relative w-full mb-3 mt-8">
+										<label
+											class="
+												block
+												uppercase
+												text-gray-700 text-xs
+												font-bold
+												mb-2
+											"
+											for="full-name"
+											>Full Name</label
+										><input
+											type="text"
+											class="
+												border-0
+												px-3
+												py-3
+												placeholder-gray-400
+												text-gray-700
+												bg-white
+												rounded
+												text-sm
+												shadow
+												focus:outline-none focus:ring
+												w-full
+											"
+											placeholder="Full Name"
+											style="
+												transition: all 0.15s ease 0s;
+											"
+										/>
+									</div>
+									<div class="relative w-full mb-3">
+										<label
+											class="
+												block
+												uppercase
+												text-gray-700 text-xs
+												font-bold
+												mb-2
+											"
+											for="email"
+											>Email</label
+										><input
+											type="email"
+											class="
+												border-0
+												px-3
+												py-3
+												placeholder-gray-400
+												text-gray-700
+												bg-white
+												rounded
+												text-sm
+												shadow
+												focus:outline-none focus:ring
+												w-full
+											"
+											placeholder="Email"
+											style="
+												transition: all 0.15s ease 0s;
+											"
+										/>
+									</div>
+									<div class="relative w-full mb-3">
+										<label
+											class="
+												block
+												uppercase
+												text-gray-700 text-xs
+												font-bold
+												mb-2
+											"
+											for="message"
+											>Message</label
+										><textarea
+											rows="4"
+											cols="80"
+											class="
+												border-0
+												px-3
+												py-3
+												placeholder-gray-400
+												text-gray-700
+												bg-white
+												rounded
+												text-sm
+												shadow
+												focus:outline-none focus:ring
+												w-full
+											"
+											placeholder="Type a message..."
+										></textarea>
+									</div>
+									<div class="text-center mt-6">
+										<button
+											class="
+												bg-gray-900
+												text-white
+												active:bg-gray-700
+												text-sm
+												font-bold
+												uppercase
+												px-6
+												py-3
+												rounded
+												shadow
+												hover:shadow-lg
+												outline-none
+												focus:outline-none
+												mr-1
+												mb-1
+											"
+											type="button"
+											style="
+												transition: all 0.15s ease 0s;
+											"
+										>
+											Send Message
+										</button>
+									</div>
+								</div> -->
+
+								<!-- Dubsado Form -->
+								<div class="">
+									<script
+										type="text/javascript"
+										src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/3.5.14/iframeResizer.min.js"
+									></script>
+									<iframe
+										title="Request a Quote form"
+										src="https://hello.dubsado.com:443/public/form/view/60dc883e1cf2cc7d98fdc2b8"
+										frameborder="0"
+										style="width: 1px; min-width: 100%"
+									></iframe>
+									<script type="text/javascript">
+										setTimeout(function () {
+											iFrameResize({
+												checkOrigin: false,
+												heightCalculationMethod:
+													"taggedElement",
+											});
+										}, 30);
+									</script>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="relative bg-gray-300 pt-8 pb-6">
+			<div
+				class="
+					bottom-auto
+					top-0
+					left-0
+					right-0
+					w-full
+					absolute
+					pointer-events-none
+					overflow-hidden
+					-mt-20
+				"
+				style="height: 80px"
+			>
+				<svg
+					class="absolute bottom-0 overflow-hidden"
+					xmlns="http://www.w3.org/2000/svg"
+					preserveAspectRatio="none"
+					version="1.1"
+					viewBox="0 0 2560 100"
+					x="0"
+					y="0"
+				>
+					<polygon
+						class="text-gray-300 fill-current"
+						points="2560 0 2560 100 0 100"
+					></polygon>
+				</svg>
+			</div>
+			<div class="container mx-auto px-4">
+				<div class="md:flex justify-evenly items-center">
+					<div class="w-full lg:w-1/2">
+						<img
+							src="images/amt13.png"
+							alt=""
+							class="flex justify-center"
+							width="752px"
+							height="164px"
+						/>
+					</div>
+					<div class="w-full lg:w-1/2">
+						<div
+							class="
+								flex
+								justify-center
+								lg:justify-end
+								space-x-8
+								lg:ml-auto
+								mb-6
+							"
+						>
+							<div class="flex flex-col px-4">
+								<ul class="list-unstyled">
+									<li>
+										<a
+											class="
+												text-gray-700
+												hover:text-gray-900
+												font-semibold
+												block
+												pb-2
+												text-sm
+											"
+											href="https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md"
+											>Use Cases</a
+										>
+									</li>
+									<li>
+										<a
+											class="
+												text-gray-700
+												hover:text-gray-900
+												font-semibold
+												block
+												pb-2
+												text-sm
+											"
+											href="https://creative-tim.com/terms"
+											>FAQ</a
+										>
+									</li>
+									<li>
+										<a
+											class="
+												text-gray-700
+												hover:text-gray-900
+												font-semibold
+												block
+												pb-2
+												text-sm
+											"
+											href="https://creative-tim.com/privacy"
+											>Blog</a
+										>
+									</li>
+									<li>
+										<a
+											class="
+												text-gray-700
+												hover:text-gray-900
+												font-semibold
+												block
+												pb-2
+												text-sm
+											"
+											href="https://creative-tim.com/contact-us"
+											>Portfolio</a
+										>
+									</li>
+									<li>
+										<a
+											class="
+												text-gray-700
+												hover:text-gray-900
+												font-semibold
+												block
+												pb-2
+												text-sm
+											"
+											href="https://creative-tim.com/contact-us"
+											>Support</a
+										>
+									</li>
+								</ul>
+							</div>
+							<div class="flex flex-col px-4">
+								<ul class="list-unstyled">
+									<li>
+										<a
+											class="
+												text-gray-700
+												hover:text-gray-900
+												font-semibold
+												block
+												pb-2
+												text-sm
+											"
+											href="https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md"
+											>About</a
+										>
+									</li>
+									<li>
+										<a
+											class="
+												text-gray-700
+												hover:text-gray-900
+												font-semibold
+												block
+												pb-2
+												text-sm
+											"
+											href="https://creative-tim.com/terms"
+											>Terms &amp; Conditions</a
+										>
+									</li>
+									<li>
+										<a
+											class="
+												text-gray-700
+												hover:text-gray-900
+												font-semibold
+												block
+												pb-2
+												text-sm
+											"
+											href="https://creative-tim.com/privacy"
+											>Privacy Policy</a
+										>
+									</li>
+									<li>
+										<a
+											class="
+												text-gray-700
+												hover:text-gray-900
+												font-semibold
+												block
+												pb-2
+												text-sm
+											"
+											href="https://creative-tim.com/privacy"
+											>Accessibility</a
+										>
+									</li>
+									<li>
+										<a
+											class="
+												text-gray-700
+												hover:text-gray-900
+												font-semibold
+												block
+												pb-2
+												text-sm
+											"
+											href="https://creative-tim.com/contact-us"
+											>Sitemap</a
+										>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<hr class="my-6 border-gray-400" />
+				<div
+					class="
+						w-full
+						flex flex-col
+						lg:flex-row
+						justify-center
+						lg:justify-start
+						items-center
+					"
+				>
+					<div class="flex justify-center lg:justify-start lg:w-3/12">
+						<button
+							class="
+								bg-white
+								text-blue-400
+								shadow-lg
+								font-normal
+								h-10
+								w-10
+								items-center
+								justify-center
+								align-center
+								rounded-full
+								outline-none
+								focus:outline-none
+								mr-2
+								p-3
+							"
+							type="button"
+							aria-label="Tweet"
+						>
+							<i class="flex fab fa-twitter"></i></button
+						><button
+							class="
+								bg-white
+								text-blue-600
+								shadow-lg
+								font-normal
+								h-10
+								w-10
+								items-center
+								justify-center
+								align-center
+								rounded-full
+								outline-none
+								focus:outline-none
+								mr-2
+								p-3
+							"
+							type="button"
+							aria-label="Share to Facebook"
+						>
+							<i class="flex fab fa-facebook-square"></i></button
+						><button
+							class="
+								bg-white
+								text-pink-400
+								shadow-lg
+								font-normal
+								h-10
+								w-10
+								items-center
+								justify-center
+								align-center
+								rounded-full
+								outline-none
+								focus:outline-none
+								mr-2
+								p-3
+							"
+							type="button"
+							aria-label="Share to Dribble"
+						>
+							<i class="flex fab fa-dribbble"></i></button
+						><button
+							class="
+								bg-white
+								text-gray-900
+								shadow-lg
+								font-normal
+								h-10
+								w-10
+								items-center
+								justify-center
+								align-center
+								rounded-full
+								outline-none
+								focus:outline-none
+								mr-2
+								p-3
+							"
+							type="button"
+							aria-label="Star in Github"
+						>
+							<i class="flex fab fa-github"></i>
+						</button>
+					</div>
+					<div class="flex justify-center text-center lg:w-6/12">
+						<div class="text-sm text-gray-600 font-semibold py-1">
+							Copyright ©
+							<script>
+								document.write(new Date().getFullYear());
+							</script>
+							Automeyt.
+							<span class="text-gray-600 hover:text-gray-900">
+								Developed & maintained by
+							</span>
+							<a
+								href="https://kyooreas.xyz"
+								rel="noopener noreferrer"
+								target="_blank"
+								><br class="sm:hidden" /><span
+									class="text-blue underline"
+									>Kyooreas</span
+								></a
+							>
+						</div>
+					</div>
+
+					<button
+						class="
+							fixed
+							rounded-full
+							h-14
+							w-14
+							hover:animate-bounce
+							right-5
+							bottom-5
+						"
+						onclick="scrollToTop()"
+						aria-label="Scroll To Top"
+					>
+						<img src="images/arrow-up.svg" alt="" />
+					</button>
+				</div>
+			</div>
+		</footer>
+	</body>
+	<script>
+		function toggleNavbar(collapseID) {
+			document.getElementById(collapseID).classList.toggle("hidden");
+			document.getElementById(collapseID).classList.toggle("block");
+		}
+	</script>
+	<script>
+		function toggleMenu() {
+			const navToggle = document.getElementsByClassName("toggle");
+			for (let i = 0; i < navToggle.length; i++) {
+				navToggle.item(i).classList.toggle("hidden");
+			}
+		}
+
+		function scrollToTop() {
+			window.scrollTo(0, 0);
+		}
+	</script>
+</html>
