@@ -692,6 +692,14 @@ html {
   z-index: 50;
 }
 
+.col-start-2 {
+  grid-column-start: 2;
+}
+
+.col-end-6 {
+  grid-column-end: 6;
+}
+
 .float-right {
   float: right;
 }
@@ -957,6 +965,10 @@ html {
 
 .h-16 {
   height: 4rem;
+}
+
+.h-20 {
+  height: 5rem;
 }
 
 .h-80 {
@@ -1234,6 +1246,10 @@ html {
 
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-cols-6 {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
 }
 
 .flex-row {
@@ -1769,6 +1785,11 @@ html {
 
 .border-transparent {
   border-color: transparent;
+}
+
+.border-gray-300 {
+  --tw-border-opacity: 1;
+  border-color: rgba(209, 213, 219, var(--tw-border-opacity));
 }
 
 .border-gray-400 {
