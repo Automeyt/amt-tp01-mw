@@ -1,7 +1,7 @@
 class AmtHeader extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-            <header class="container mx-auto grid grid-cols-2 px-2 py-3">
+            <header class="container mx-auto sticky top-0 z-50 grid grid-cols-2 px-2 py-3">
                 <div class="grid place-content-start content-center"> 
                     <a href="#" class="">
                         <img src="images/automeyt-logo.webp" class="h-10" alt="Automeyt Logo">
