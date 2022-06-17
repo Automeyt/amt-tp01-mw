@@ -1,32 +1,10 @@
-class AmtHeader extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = `
-            <header class="">
-                <a href="#" class="">
-                    <img src="">
-                </a>
-                <nav>
-                    <ul class="">
-                        <li>Home</li>
-                        <li>Services</li>
-                        <li>Portfolio</li>
-                        <li>Blog</li>
-                        <li>About</li>
-                        <li>Contact Us</li>
-                    </ul>
-                </nav>
-            </header>
-        `
-    }
-}
-
 class AmtFooter extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
             <footer class="bg-black text-white grid grid-cols-2">
-                <div class="grid grid-flow-col auto-cols-max">
+                <div class="grid grid-flow-col auto-cols-max py-4 bg-blue">
                     <!-- Upwork Icon -->
-                    <a href="https://www.upwork.com/freelancers/~0105b4581377de52ba" rel="noopener noreferrer" target="_blank">
+                    <a href="https://www.upwork.com/freelancers/~0105b4581377de52ba" rel="noopener noreferrer" target="_blank" class="">
                         <button class="
                                 bg-white
                                 text-black
@@ -78,7 +56,7 @@ class AmtFooter extends HTMLElement {
                     </a>
                 </div>
                 <div>
-                    <p href="#" class="">
+                    <p href="#" class="grid content-center">
                         Copyright © 2022 Automeyt.
                     </p>
                 </div>
@@ -87,6 +65,5 @@ class AmtFooter extends HTMLElement {
     }
 }
 
-customElements.define('amt-header', AmtHeader);
 customElements.define('amt-footer', AmtFooter);
 
