@@ -1,7 +1,7 @@
 class AmtHeader extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-            <header class="sticky top-0 z-50">
+            <header class="bg-black sticky top-0 z-50">
                 <div class="container mx-auto grid grid-cols-2 p-6">
                     <div class="grid place-content-start content-center"> 
                         <a href="#" class="">
