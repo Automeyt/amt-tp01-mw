@@ -748,6 +748,11 @@ html {
   margin: 4rem;
 }
 
+.mx-8 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -2003,6 +2008,11 @@ html {
   padding-right: 0px;
 }
 
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -2762,6 +2772,10 @@ html {
     width: 20rem;
   }
 
+  .md\:w-2\/3 {
+    width: 66.666667%;
+  }
+
   .md\:w-4\/12 {
     width: 33.333333%;
   }
@@ -2809,6 +2823,10 @@ html {
 
   .md\:pr-12 {
     padding-right: 3rem;
+  }
+
+  .md\:pr-28 {
+    padding-right: 7rem;
   }
 
   .md\:text-4xl {
@@ -2881,6 +2899,10 @@ html {
 
   .lg\:w-6\/12 {
     width: 50%;
+  }
+
+  .lg\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .lg\:flex-row {
