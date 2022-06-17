@@ -808,6 +808,10 @@ html {
   margin-top: -6rem;
 }
 
+.-mt-40 {
+  margin-top: -10rem;
+}
+
 .-mt-48 {
   margin-top: -12rem;
 }
@@ -2968,3 +2972,4 @@ html {
 
 @media (min-width: 1536px) {
 }
+
