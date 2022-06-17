@@ -4,7 +4,7 @@ class AmtHeader extends HTMLElement {
             <header class="container mx-auto sticky top-0 z-50 grid grid-cols-2 p-6">
                 <div class="grid place-content-start content-center"> 
                     <a href="#" class="">
-                        <img src="images/automeyt-logo.webp" class="h-10" alt="Automeyt Logo">
+                        <img src="images/automeyt-logo-black-bg.webp" class="h-10" alt="Automeyt Logo">
                     </a>
                 </div>
                 <div class="grid place-content-end content-center">
