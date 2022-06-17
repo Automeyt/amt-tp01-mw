@@ -72,7 +72,7 @@ class AmtHome extends HTMLElement {
         <section class="bg-white py-20">
             <article class="container mx-auto relative">
                 <div class="grid lg:grid-cols-2 place-items-center px-1">
-                    <div class="mx-auto w-full md:w-2/3">
+                    <div class="mx-auto md:w-2/3">
                         <img class="max-2-full shadow-lg rounded-lg" src="images/photo-1555212697-194d092e3b8f.avif" alt="Image of Get Shit Done" width="469px" height="704px">
                     </div>
                     <div class="mx-8 px-4 mt-8">
