@@ -2131,6 +2131,10 @@ html {
   padding-left: 0.5rem;
 }
 
+.pl-4 {
+  padding-left: 1rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -2734,6 +2738,14 @@ html {
 }
 
 @media (min-width: 768px) {
+  .md\:row-start-2 {
+    grid-row-start: 2;
+  }
+
+  .md\:ml-10 {
+    margin-left: 2.5rem;
+  }
+
   .md\:inline {
     display: inline;
   }
@@ -2780,6 +2792,10 @@ html {
   .md\:scale-125 {
     --tw-scale-x: 1.25;
     --tw-scale-y: 1.25;
+  }
+
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .md\:grid-cols-3 {
@@ -2855,6 +2871,10 @@ html {
     width: 50%;
   }
 
+  .lg\:w-3\/5 {
+    width: 60%;
+  }
+
   .lg\:w-3\/12 {
     width: 25%;
   }
@@ -2895,8 +2915,16 @@ html {
     padding-top: 6rem;
   }
 
+  .lg\:pt-28 {
+    padding-top: 7rem;
+  }
+
   .lg\:pb-64 {
     padding-bottom: 16rem;
+  }
+
+  .lg\:pl-36 {
+    padding-left: 9rem;
   }
 
   .lg\:text-2xl {
