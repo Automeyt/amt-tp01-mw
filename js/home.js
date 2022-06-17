@@ -75,7 +75,7 @@ class AmtHome extends HTMLElement {
                     <div class="mx-auto w-full md:w-2/3">
                         <img class="max-2-full shadow-lg rounded-lg" src="images/photo-1555212697-194d092e3b8f.avif" alt="Image of Get Shit Done" width="469px" height="704px">
                     </div>
-                    <div class="mx-8 px-4">
+                    <div class="mx-8 px-4 mt-8">
                         <div class="md:pr-28">
                             <div class=" p-3 w-16 h-16 mb-5 shadow-lg rounded-full bg-orange bg-opacity-60 text-center">
                                 <img src="images/rocket-icon.svg" alt="Lift off">
