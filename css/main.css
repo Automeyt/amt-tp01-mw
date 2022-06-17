@@ -1787,11 +1787,6 @@ html {
   border-color: transparent;
 }
 
-.border-gray-300 {
-  --tw-border-opacity: 1;
-  border-color: rgba(209, 213, 219, var(--tw-border-opacity));
-}
-
 .border-gray-400 {
   --tw-border-opacity: 1;
   border-color: rgba(156, 163, 175, var(--tw-border-opacity));
@@ -1829,11 +1824,6 @@ html {
 .bg-red-400 {
   --tw-bg-opacity: 1;
   background-color: rgba(248, 113, 113, var(--tw-bg-opacity));
-}
-
-.bg-blue {
-  --tw-bg-opacity: 1;
-  background-color: rgba(17, 24, 39, var(--tw-bg-opacity));
 }
 
 .bg-pink-200 {
