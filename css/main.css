@@ -732,6 +732,10 @@ html {
   margin: 0.75rem;
 }
 
+.m-4 {
+  margin: 1rem;
+}
+
 .m-8 {
   margin: 2rem;
 }
@@ -1242,6 +1246,11 @@ html {
 
 .grid-flow-col-dense {
   grid-auto-flow: column dense;
+}
+
+.auto-rows-max {
+  grid-auto-rows: -webkit-max-content;
+  grid-auto-rows: max-content;
 }
 
 .grid-cols-2 {
