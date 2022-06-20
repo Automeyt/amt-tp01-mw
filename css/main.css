@@ -645,6 +645,7 @@ html {
 }
 
 .sticky {
+  position: -webkit-sticky;
   position: sticky;
 }
 
@@ -688,12 +689,24 @@ html {
   isolation: auto;
 }
 
+.z-40 {
+  z-index: 40;
+}
+
 .z-50 {
   z-index: 50;
 }
 
 .col-start-2 {
   grid-column-start: 2;
+}
+
+.col-start-3 {
+  grid-column-start: 3;
+}
+
+.col-start-4 {
+  grid-column-start: 4;
 }
 
 .col-end-6 {
@@ -980,6 +993,10 @@ html {
   height: 5rem;
 }
 
+.h-48 {
+  height: 12rem;
+}
+
 .h-80 {
   height: 20rem;
 }
@@ -1010,6 +1027,10 @@ html {
 
 .w-16 {
   width: 4rem;
+}
+
+.w-60 {
+  width: 15rem;
 }
 
 .w-96 {
@@ -1262,6 +1283,14 @@ html {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
 .grid-cols-6 {
   grid-template-columns: repeat(6, minmax(0, 1fr));
 }
@@ -1420,6 +1449,10 @@ html {
 
 .justify-items-stretch {
   justify-items: stretch;
+}
+
+.gap-6 {
+  gap: 1.5rem;
 }
 
 .space-x-6 > :not([hidden]) ~ :not([hidden]) {
@@ -1801,6 +1834,11 @@ html {
   border-color: transparent;
 }
 
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgba(255, 255, 255, var(--tw-border-opacity));
+}
+
 .border-gray-400 {
   --tw-border-opacity: 1;
   border-color: rgba(156, 163, 175, var(--tw-border-opacity));
@@ -1838,6 +1876,11 @@ html {
 .bg-red-400 {
   --tw-bg-opacity: 1;
   background-color: rgba(248, 113, 113, var(--tw-bg-opacity));
+}
+
+.bg-red-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(220, 38, 38, var(--tw-bg-opacity));
 }
 
 .bg-pink-200 {
@@ -2003,6 +2046,10 @@ html {
   padding: 2rem;
 }
 
+.p-12 {
+  padding: 3rem;
+}
+
 .px-0 {
   padding-left: 0px;
   padding-right: 0px;
@@ -2117,6 +2164,10 @@ html {
   padding-right: 3rem;
 }
 
+.pr-20 {
+  padding-right: 5rem;
+}
+
 .pb-2 {
   padding-bottom: 0.5rem;
 }
@@ -2131,6 +2182,10 @@ html {
 
 .pb-20 {
   padding-bottom: 5rem;
+}
+
+.pb-24 {
+  padding-bottom: 6rem;
 }
 
 .pb-32 {
@@ -2954,6 +3009,11 @@ html {
     line-height: 2rem;
   }
 
+  .lg\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
   .lg\:shadow-none {
     --tw-shadow: 0 0 #0000;
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
@@ -2968,3 +3028,4 @@ html {
 
 @media (min-width: 1536px) {
 }
+

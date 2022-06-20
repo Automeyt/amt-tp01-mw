@@ -27,10 +27,38 @@
     <script type="module" src="js/footer.js"></script>
 </head>
 <body>
-    <amt-header></amt-header>
+    <!-- <amt-header></amt-header> -->
 
-    <main></main>
+    <main class="container mx-auto">
+        <section class="relative w-full">
+            <div class="grid grid-cols-3 absolute left-0 top-0 z-40">
+                <div class=" bg-red-600 p-12 pr-20">
+                    <div class="grid grid-flow-row auto-cols-max">
+                        <h2 class="text-2xl lg:text-4xl text-white">
+                            E-Commerce
+                        </h2>
+                    </div>
+                    <div class="grid grid-flow-row auto-cols-max pb-24">
+                        <button class="cursor-pointer border border-white rounded  px-3 py-1">
+                            See All
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid grid-cols-4 gap-6 absolute top-0 bottom-0 z-50">
+                <div class="bg-black col-start-2 h-48 w-60">
+                    www1
+                </div>
+                <div class="bg-black col-start-3 h-48 w-60">
+                    www2
+                </div>
+                <div class="bg-black col-start-4 h-48 w-60">
+                    www3
+                </div>
+                </div>
+        </section>
+    </main>
 
-    <amt-footer></amt-footer>
+    <!-- <amt-footer></amt-footer> -->
 </body>
 </html>
