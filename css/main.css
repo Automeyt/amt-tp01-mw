@@ -808,6 +808,10 @@ html {
   margin-top: -6rem;
 }
 
+.-mt-40 {
+  margin-top: -10rem;
+}
+
 .-mt-48 {
   margin-top: -12rem;
 }
@@ -2901,10 +2905,6 @@ html {
     width: 50%;
   }
 
-  .lg\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
   .lg\:flex-row {
     flex-direction: row;
   }
@@ -2968,3 +2968,4 @@ html {
 
 @media (min-width: 1536px) {
 }
+
