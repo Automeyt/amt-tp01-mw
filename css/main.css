@@ -1312,6 +1312,10 @@ html {
   padding-top: 7rem;
 }
 
+.pt-4 {
+  padding-top: 1rem;
+}
+
 .pl-4 {
   padding-left: 1rem;
 }
