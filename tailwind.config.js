@@ -10,7 +10,7 @@ module.exports = {
         blue: '#111827',
       },
       gridTemplateColumns: {
-        "fit-74": "repeat(auto-fill, minmax(16rem, 1fr))",
+        "fit-80": "repeat(auto-fill, minmax(20rem, 1fr))",
       },
     },
   },
