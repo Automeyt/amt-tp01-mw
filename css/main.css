@@ -1312,12 +1312,8 @@ html {
   padding-top: 7rem;
 }
 
-.pt-20 {
-  padding-top: 5rem;
-}
-
-.pt-10 {
-  padding-top: 2.5rem;
+.pt-4 {
+  padding-top: 1rem;
 }
 
 .pl-4 {
@@ -1726,6 +1722,14 @@ html {
 
   .md\:pr-12 {
     padding-right: 3rem;
+  }
+
+  .md\:pt-20 {
+    padding-top: 5rem;
+  }
+
+  .md\:pt-10 {
+    padding-top: 2.5rem;
   }
 
   .md\:pr-28 {
