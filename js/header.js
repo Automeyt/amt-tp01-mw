@@ -13,22 +13,22 @@ class AmtHeader extends HTMLElement {
                             lg:grid-flow-col lg:auto-cols-max lg:gap-6 py-2 text-center 
                             text-white lg: text-xl bg-orange lg:bg-transparent">
                             <li >
-                                <a href="#">Home</a> 
+                                <a href="index.html">Home</a> 
                             </li>
                             <li>
-                                <a href="#">Services</a> 
+                                <a href="services.html">Services</a> 
                             </li>
                             <li>
-                                <a href="#">Blog</a> 
+                                <a href="blog.html">Blog</a> 
                             </li>
                             <li>
-                                <a href="#">Pricing</a> 
+                                <a href="pricing.html">Pricing</a> 
                             </li>
                             <li>
-                                <a href="#">Portfolio</a> 
+                                <a href="portfolio.html">Portfolio</a> 
                             </li>
                             <li>
-                                <a href="#">Contact Us</a> 
+                                <a href="reach-out.html">Reach Out</a> 
                             </li>
                         </ul>
                     </nav>
