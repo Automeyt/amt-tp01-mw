@@ -8,14 +8,14 @@ class AmtHeader extends HTMLElement {
                             <img src="images/automeyt-logo-black-bg.webp" class="h-10" alt="Automeyt Logo">
                         </a>
                     </div>
-                    <nav class="">
+                    <nav class="relative">
                         <div class="grid place-content-end content-center p-4 space-y-2 rounded shadow"
                             onclick="toggleNav()">
                             <span class="block w-8 h-0.5 bg-gray-100 animate-pulse"></span>
                             <span class="block w-8 h-0.5 bg-gray-100 animate-pulse"></span>
                             <span class="block w-8 h-0.5 bg-gray-100 animate-pulse"></span>
                         </div>
-                        <ul class="hidden grid lg:grid-flow-col lg:auto-cols-max 
+                        <ul class="hidden absolute right-0 w-full rounded-b-lg grid lg:grid-flow-col lg:auto-cols-max 
                             lg:gap-6 py-2 text-center text-white bg-orange"
                             id="nav_list">
                             <li >
