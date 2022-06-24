@@ -8,13 +8,38 @@ class AmtHeader extends HTMLElement {
                             <img src="images/automeyt-logo-black-bg.webp" class="h-10" alt="Automeyt Logo">
                         </a>
                     </div>
-                    <div class="grid place-content-end content-center">
-                        <a href="#" class="">
-                        <button class="text-white text-xl font-bold uppercase px-3 py-1 rounded-l-2xl bg-orange" type="button">
-                            Reach Out
-                        </button>
-                        </a>
-                    </div>
+                    <nav class="">
+                        <div class="grid place-content-end content-center p-4 space-y-2 rounded shadow">
+                
+                            <span class="block w-8 h-0.5 bg-gray-100 animate-pulse"></span>
+                
+                            <span class="block w-8 h-0.5 bg-gray-100 animate-pulse"></span>
+                
+                            <span class="block w-8 h-0.5 bg-gray-100 animate-pulse"></span>
+                
+                        </div>
+                        <ul class="hidden grid lg:grid-flow-col lg:auto-cols-max 
+                            lg:gap-6 py-2 text-center text-white bg-orange">
+                            <li >
+                                <a href="#">Home</a> 
+                            </li>
+                            <li>
+                                <a href="#">Services</a> 
+                            </li>
+                            <li>
+                                <a href="#">Blog</a> 
+                            </li>
+                            <li>
+                                <a href="#">Pricing</a> 
+                            </li>
+                            <li>
+                                <a href="#">Portfolio</a> 
+                            </li>
+                            <li>
+                                <a href="#">Contact Us</a> 
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
             </header>
         `
