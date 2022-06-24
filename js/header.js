@@ -9,17 +9,15 @@ class AmtHeader extends HTMLElement {
                         </a>
                     </div>
                     <nav class="">
-                        <div class="grid place-content-end content-center p-4 space-y-2 rounded shadow">
-                
+                        <div class="grid place-content-end content-center p-4 space-y-2 rounded shadow"
+                            onclick="test()">
                             <span class="block w-8 h-0.5 bg-gray-100 animate-pulse"></span>
-                
                             <span class="block w-8 h-0.5 bg-gray-100 animate-pulse"></span>
-                
                             <span class="block w-8 h-0.5 bg-gray-100 animate-pulse"></span>
-                
                         </div>
                         <ul class="hidden grid lg:grid-flow-col lg:auto-cols-max 
-                            lg:gap-6 py-2 text-center text-white bg-orange">
+                            lg:gap-6 py-2 text-center text-white bg-orange"
+                            id="nav_list">
                             <li >
                                 <a href="#">Home</a> 
                             </li>
@@ -47,3 +45,8 @@ class AmtHeader extends HTMLElement {
 }
 
 customElements.define('amt-header', AmtHeader);
+
+function test() {
+    console.log("test-done");
+    document.getElementById("nav_list").classList.remove("hidden");
+}
