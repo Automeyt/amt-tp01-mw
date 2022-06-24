@@ -10,7 +10,7 @@ class AmtHeader extends HTMLElement {
                     </div>
                     <nav class="">
                         <div class="grid place-content-end content-center p-4 space-y-2 rounded shadow"
-                            onclick="test()">
+                            onclick="toggleNav()">
                             <span class="block w-8 h-0.5 bg-gray-100 animate-pulse"></span>
                             <span class="block w-8 h-0.5 bg-gray-100 animate-pulse"></span>
                             <span class="block w-8 h-0.5 bg-gray-100 animate-pulse"></span>
@@ -46,7 +46,3 @@ class AmtHeader extends HTMLElement {
 
 customElements.define('amt-header', AmtHeader);
 
-function test() {
-    console.log("test-done");
-    document.getElementById("nav_list").classList.remove("hidden");
-}
