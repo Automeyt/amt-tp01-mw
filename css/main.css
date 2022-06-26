@@ -658,6 +658,10 @@ html {
   grid-column-start: 2;
 }
 
+.col-start-9 {
+  grid-column-start: 9;
+}
+
 .col-end-6 {
   grid-column-end: 6;
 }
@@ -2138,6 +2142,10 @@ html {
     width: 66.666667%;
   }
 
+  .lg\:w-4\/5 {
+    width: 80%;
+  }
+
   .lg\:auto-cols-max {
     grid-auto-columns: -webkit-max-content;
     grid-auto-columns: max-content;
@@ -2214,6 +2222,28 @@ html {
 @media (min-width: 1280px) {
   .xl\:w-96 {
     width: 24rem;
+  }
+
+  .xl\:w-3\/5 {
+    width: 60%;
+  }
+
+  .xl\:w-3\/4 {
+    width: 75%;
+  }
+
+  .xl\:w-4\/6 {
+    width: 66.666667%;
+  }
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:w-3\/6 {
+    width: 50%;
+  }
+
+  .\32xl\:w-4\/6 {
+    width: 66.666667%;
   }
 }
 
