@@ -642,6 +642,14 @@ html {
   bottom: 1.25rem;
 }
 
+.right-8 {
+  right: 2rem;
+}
+
+.bottom-8 {
+  bottom: 2rem;
+}
+
 .z-50 {
   z-index: 50;
 }
