@@ -1209,6 +1209,10 @@ html {
   margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
 }
 
+.justify-self-center {
+  justify-self: center;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -1973,6 +1977,11 @@ html {
     grid-row-start: 2;
   }
 
+  .md\:my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
   .md\:ml-10 {
     margin-left: 2.5rem;
   }
@@ -2051,12 +2060,20 @@ html {
     grid-template-columns: repeat(10, minmax(0, 1fr));
   }
 
+  .md\:place-items-center {
+    place-items: center;
+  }
+
   .md\:content-center {
     align-content: center;
   }
 
   .md\:gap-4 {
     gap: 1rem;
+  }
+
+  .md\:justify-self-center {
+    justify-self: center;
   }
 
   .md\:px-0 {
@@ -2090,6 +2107,10 @@ html {
 
   .md\:text-left {
     text-align: left;
+  }
+
+  .md\:text-center {
+    text-align: center;
   }
 
   .md\:text-4xl {
