@@ -1546,6 +1546,10 @@ html {
   padding-left: 0.5rem;
 }
 
+.pb-24 {
+  padding-bottom: 6rem;
+}
+
 .text-center {
   text-align: center;
 }
