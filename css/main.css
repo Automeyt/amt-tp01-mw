@@ -1747,6 +1747,10 @@ html {
     display: none;
   }
 
+  .sm\:grid-cols-fit-80 {
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  }
+
   .sm\:pt-0 {
     padding-top: 0px;
   }
