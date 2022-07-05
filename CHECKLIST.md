@@ -1,9 +1,9 @@
 <div align="center">
-    <img src="./docs/images/amt13.png" alt="Logo" width="125" height="125">
+    <img src="./docs/images/amt13.png" alt="Logo" height="125">
 </div>
 
 <div align="center">
-  <h1>Checklist</h1>
+  <h1>Web Dev Checklist</h1>
 </div>
 
 <div align="center">
